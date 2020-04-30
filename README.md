@@ -26,11 +26,11 @@ of the column.
 For example if the top row looked like:
 
 ```
-+-------------------+    +----+
-|                   |    |    |
++---+---+---+---+---+    +----+
+|   |   |   |   |   |    |    |
 | 5 | * | 4 | - | 7 |    | 13 |
-|                   |    |    |
-+-------------------+    +----+
+|   |   |   |   |   |    |    |
++---+---+---+---+---+    +----+
 ```
 
 is correct because 5 multiplied by 4 is 20 and take 7 from 20
