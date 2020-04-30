@@ -1,20 +1,8 @@
 #! /usr/bin/python3
 #
-# @(!--#) @(#) mathpuz2.py, version 008, 30-april-2020
+# @(!--#) @(#) mathpuz2.py, version 009, 30-april-2020
 #
 # math puzzle generator
-#
-
-######################################################################
-
-#      0 a 1 b 2  = R0
-#      c   d   e
-#      3 f 4 g 5  = R1
-#      h   i   j
-#      6 k 7 l 8  = R2
-#      
-#      #   #   #
-#      R3  R4  R5
 #
 
 ######################################################################
@@ -33,8 +21,9 @@ import cgitb; cgitb.enable()   # for troubleshooting
 # globals
 #
 
-CSS_VERSION = '001'
+CSS_VERSION = '003'
 
+README_URL = 'https://github.com/andycranston/mathpuz'
 
 ######################################################################
 
@@ -350,7 +339,7 @@ def main():
     print('<link rel="stylesheet" type="text/css" href="{}.css?version={}">'.format(basename, CSS_VERSION))
     print('</head>')
     print('<body>')
-    print('<h1>{}</h1>'.format(title))
+    print('<h1>{} <small class="instructions">(<a href="{}">instructions and source code</a>)</small></h1>'.format(title, README_URL))
 
     ### print('[{}]'.format(basename))
 
