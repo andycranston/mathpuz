@@ -11,11 +11,11 @@ Click on this link to play the puzzle:
 ## Instructions / rules
 
 Firstly enter a game number starting from 1 in the game number box and
-click on the `Generate puzzle` button. The puzzle will be displayed. You
-have to enter single digit numbers from 1 to 9 in each of the boxes in
-the puzzle grid. To
-help get you started one of the numbers has already been filled in
-for you.
+click on the `Generate puzzle` button. The puzzle will be displayed.
+
+You have to enter single digit numbers from 1 to 9 in each of the boxes in
+the puzzle grid. To help get you started one of the numbers has already
+been filled in for you.
 
 Each of the single digit numbers should be used only once.
 
@@ -33,11 +33,11 @@ For example if the top row looked like:
 +---+---+---+---+---+    +----+
 ```
 
-is correct because 5 multiplied by 4 is 20 and take 7 from 20
+then it is correct because 5 multiplied by 4 is 20 and take 7 from 20
 leaves the result of 13.
 
 Note that the calulation is strict left to right for rows and top to bottom
-for colunms.  For example:
+for columns.  For example if the first column looked like:
 
 ```
 +---+
@@ -57,19 +57,21 @@ for colunms.  For example:
 +---+
 ```
 
-is correct because 3 plus 5 is 8 and divide this by 2 leaves the
+then it is correct because 3 plus 5 is 8 and divide this by 2 leaves the
 result of 4.
 
 Strict mathematicians would say the division (/) should be
 performed first because division has a higher `precedence` that addition (+)
 but what do they know :-)
 
-For the purposes of this puzzle do the sums left to right/top to bottom.
+For this puzzle do the sums left to right/top to bottom.
 
 ## Checking your answers
 
 When you think you have completed the puzzle click on the `Check answers`
-button. If you are correct a message:
+button.
+
+If you are correct a message:
 
 ```
 You have solved the puzzle
