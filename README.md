@@ -10,11 +10,14 @@ Click on this link to play the puzzle:
 
 ## Instructions / rules
 
-Firstly enter a game number starting from 1 and click on the `Generate`
-button. The puzzle will be displayed. You have to enter single digit numbers from 1 to 9 in each of the boxes. To help get you started one of the numbers
-has already been filled in for you.
+Firstly enter a game number starting from 1 in the game number box and
+click on the `Generate puzzle` button. The puzzle will be displayed. You
+have to enter single digit numbers from 1 to 9 in each of the boxes in
+the puzzle grid. To
+help get you started one of the numbers has already been filled in
+for you.
 
-Each of the single digit numbers is used only once.
+Each of the single digit numbers should be used only once.
 
 When the puzzle is correctly completed each row and column calculation
 should match the number in the box to the right of the row or the bottom
@@ -30,10 +33,10 @@ For example if the top row looked like:
 +-------------------+    +----+
 ```
 
-This is correct because 5 multiplied by 4 is 20 and take 7 from 20
+is correct because 5 multiplied by 4 is 20 and take 7 from 20
 leaves the result of 13.
 
-Note that the calulation is strict left to right for rows (and top to bottom
+Note that the calulation is strict left to right for rows and top to bottom
 for colunms.  For example:
 
 ```
@@ -54,10 +57,14 @@ for colunms.  For example:
 +---+
 ```
 
-This is correct because 3 plus 5 is 8 and divide this by 2 leaves the
-result of 4. Strict mathemeticians would say the division (/) should be
+is correct because 3 plus 5 is 8 and divide this by 2 leaves the
+result of 4.
+
+Strict mathematicians would say the division (/) should be
 performed first because division has a higher `precedence` that addition (+)
-but what do they know :-) For the purposes of this puzzle do the sums left to right/top to bottom.
+but what do they know :-)
+
+For the purposes of this puzzle do the sums left to right/top to bottom.
 
 ## Checking your answers
 
@@ -87,7 +94,7 @@ Copy the `mathpuz.py` and `mathpuz.css` files in the repository to a
 directory on your web server that allows CGI scripts to run. You may need
 to make the `mathpuz.py` file `executable` in your environment. From
 a web browser enter the URL to your web server that matches where you
-have copies the files to.
+have copied the files to.
 
 For example I have a web server on my network called:
 
@@ -126,7 +133,7 @@ andy [at] cranstonhub [dot] com
 Change the [at] to @ and the [dot] to . and take out the spaces :-)
 
 I use this form of email address on public internet pages to try and stop my
-real email address from be grabbed by spammers.
+real email address from being used by spammers.
 
 -------------------------------------------------------
 
