@@ -8,6 +8,12 @@ Click on this link to play the puzzle:
 
 [Maths Puzzle](http://cranstonhub.com/cgi-bin/mathpuz.py)
 
+## Demo video
+
+Watch a one and a half minute long demo video on YouTube:
+
+[YouTube - An online web based maths puzzle](https://www.youtube.com/watch?v=gzevjkJorM8)
+
 ## Instructions / rules
 
 Firstly enter a game number starting from 1 in the game number box and
