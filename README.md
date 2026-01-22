@@ -6,7 +6,7 @@ A web based simple maths puzzle.
 
 Click on this link to play the puzzle:
 
-[Maths Puzzle](http://cranstonhub.com/cgi-bin/mathpuz.py)
+[Maths Puzzle](https://cranstonhub.com/cgi-bin/mathpuz.py)
 
 ## Videos
 
@@ -144,13 +144,5 @@ you can send me an email:
 andy [at] cranstonhub [dot] com
 ```
 
-Change the [at] to @ and the [dot] to . and take out the spaces :-)
-
-I use this form of email address on public internet pages to try and stop my
-real email address from being used by spammers.
-
--------------------------------------------------------
-
+----------------
 End of README.md
-
-
