@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 #
-# @(!--#) @(#) mathpuz2.py, version 009, 30-april-2020
+# @(!--#) @(#) mathpuz2.py, version 002, 22-january-2026
 #
 # math puzzle generator
 #
@@ -21,7 +21,7 @@ import cgitb; cgitb.enable()   # for troubleshooting
 # globals
 #
 
-CSS_VERSION = '003'
+CSS_VERSION = '004'
 
 README_URL = 'https://github.com/andycranston/mathpuz'
 
@@ -339,18 +339,25 @@ def main():
     print('<link rel="stylesheet" type="text/css" href="{}.css?version={}">'.format(basename, CSS_VERSION))
     print('</head>')
     print('<body>')
-    print('<h1>{} <small class="instructions">(<a href="{}">instructions and source code</a>)</small></h1>'.format(title, README_URL))
+    print('<h1>{}</h1>'.format(title))
+    print('<small class="instructions">(<a href="{}">instructions and source code</a>)</small>'.format(README_URL))
 
-    ### print('[{}]'.format(basename))
+    print('<br>')
+    print('<br>')
 
     print('<form method="post" action="{}">'.format(progname))
 
     print('Game number: <input type="text" name="gamenum" value="{}" size="4">'.format(gamenum))
 
-    print('&nbsp;')
+    print('<br>')
+    print('<br>')
+
     print('<input type="submit" name="generate" value="Generate puzzle">')
 
     print('&nbsp;')
+    print('&nbsp;')
+    print('&nbsp;')
+
     print('<input type="submit" name="check" value="Check answers">')
 
     print('<br>')
